@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.get('/user', function(req, res){
 
     res.send({
-        message: 'hello shimizacken!'
+        message: 'hello user!'
     });
 
 });
