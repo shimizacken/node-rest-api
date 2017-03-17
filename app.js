@@ -1,6 +1,6 @@
 var port = 9000;
 var express = require('express');
-var bodyParser = require('express/node_modules/body-parser');
+var bodyParser = require('body-parser');
 
 var app = express();
 
